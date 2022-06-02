@@ -1,0 +1,102 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    
+}
+
+.Main{
+   
+    background-color: #282D35;
+    color: white;
+    background-image: url(./react-halflogo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 60%;
+
+    
+}
+.main--title{
+    padding-top: 40px;
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.Listpoints
+{
+
+    margin-top: 46px;
+    max-width: 400px;
+    padding-bottom: 100px;
+}
+.Listpoints > li{
+    line-height: 19px;
+    padding-block: 10px;
+    
+}
+
+.Listpoints > li::marker{
+    font-size: 1.4em;
+    color: #61DAFB
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#DEEBF8;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+nav > .nav--logo_text , nav > .nav--title{
+    margin: 0;
+}
+nav > .nav--logo_text{
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;    
+}
+nav > .nav--title{
+    
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+nav > .nav--icon {
+    height: 30px;
+    margin-right: 7PX;
+}
+
+/*
+.logo{
+    width: 70px;
+    height: 40px;
+  
+}*/
+.nav-items {
+    list-style: none;
+    display:flex
+
+}
+
+.nav-items > li{
+    padding: 10px;
+
+}
+ 
+.Footr{
+    background-color: #36454F;
+    padding: 20px;
+    text-align: center;
+    color: azure;
+  
+
+ 
+}
